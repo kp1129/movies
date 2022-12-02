@@ -1,0 +1,50 @@
+.signin {
+  width: 300px;
+  padding: 70px;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.signin > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signin > form > h1 {
+  margin-bottom: 20px;
+}
+
+.signin > form > input {
+  padding: 5px 15px;
+  outline-width: 0;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.signin > form > button {
+  padding: 16px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  min-width: 150px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signin > form > h4 {
+  text-align: left;
+  margin-top: 30px;
+  font-weight: 300;
+  color: gray;
+}
+
+.signin > form > h4 > span {
+  font-weight: 600;
+  margin-left: 2px;
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}

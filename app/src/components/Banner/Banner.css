@@ -44,7 +44,7 @@
   transition: all 0.2s;
 }
 
-.banner--fadeBottom {
+.banner__gradient {
   height: 7.4rem;
   background-image: linear-gradient(
     180deg,

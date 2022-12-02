@@ -1,14 +1,14 @@
 import React from "react";
-import "./HomeScreen.css";
-import Banner from "../Banner/Banner";
+import "./Home.css";
+import Banner from "../../components/Banner/Banner";
 
-import Nav from "../Nav/Nav";
-import Row from "../Row/Row";
+import Nav from "../../components/Nav/Nav";
+import Row from "../../components/Row/Row";
 import { requests } from "../../Requests";
 
-function HomeScreen() {
+function Home() {
   return (
-    <div className="homeScreen">
+    <div className="home">
       <Nav />
       <Banner />
 
@@ -28,4 +28,4 @@ function HomeScreen() {
   );
 }
 
-export default HomeScreen;
+export default Home;
